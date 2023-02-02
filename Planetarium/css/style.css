@@ -4,11 +4,8 @@ html{
 }
 
 body{
-    background-image: url(/images/bg.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
+    background-image: url('../images-planetarium/background.webp');
     background-size: cover;
-    -o-background-size: cover;
     background-attachment: fixed;
 }
 
@@ -23,6 +20,7 @@ footer{
 
 .fa-brands{
     color : white !important;
+    font-size: 2.5em;
 }
 
 section{
@@ -64,7 +62,7 @@ nav{
 }
 
 .jupiter{
-    background-image: linear-gradient(to bottom, #ab5742, #b77051, #c28964, #cda17b, #d8b994, #dbbd95, #ddc096, #e0c497, #dbb57e, #d6a567, #d19550, #cc843a);
+    background-image: linear-gradient(to bottom, #a67b63, #a47257, #a2684b, #a05f3f, #9e5534, #9e5534, #9e5534, #9e5534, #a05f3f, #a2684b, #a47257, #a67b63);
 }
 
 .saturne{
@@ -101,16 +99,6 @@ nav{
 aside p{
     text-align: justify;
 }
-
-.planete a span {
-    display:none;
-    }
-
-.planete a:hover span {
-    display:block;
-    right : 150px;
-    position: absolute;
-    }
 
 #wikiLink{
     background-color: ivory;

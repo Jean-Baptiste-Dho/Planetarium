@@ -4,21 +4,24 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" contentwidth=width, initial-scale=1.0">
-  <title>Bienvenu sur le Planétarium</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css" integrity="sha3104-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK210anvf" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bienvenu au Planétarium</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://kit.fontawesome.com/da94580331.js" crossorigin="anonymous" defer></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"
+    defer></script>
+
 </head>
 
 <body class="container">
   <header>
     <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand d-flex" style="width:120px" href="terre.html"><img src="images/logo.png" alt="logo"
+        <a class="navbar-brand d-flex" style="width:120px" href="Terre.html"><img src="images-planetarium/logo.png" alt="logo"
             class="d-block" style="width: 70%"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
@@ -31,14 +34,14 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Planètes</a>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <li><a class="dropdown-item" href="mercure.html">Mercure</a></li>
-                <li><a class="dropdown-item" href="venus.html">Vénus</a></li>
-                <li><a class="dropdown-item" href="terre.html">La Terre</a></li>
-                <li><a class="dropdown-item" href="mars.html">Mars</a></li>
-                <li><a class="dropdown-item" href="jupiter.html">Jupiter</a></li>
-                <li><a class="dropdown-item" href="saturne.html">Saturne</a></li>
-                <li><a class="dropdown-item" href="uranus.html">Uranus</a></li>
-                <li><a class="dropdown-item" href="neptune.html">Neptune</a></li>
+                <li><a class="dropdown-item" href="Mercure.html">Mercure</a></li>
+                <li><a class="dropdown-item" href="Venus.html">Vénus</a></li>
+                <li><a class="dropdown-item" href="Terre.html">La Terre</a></li>
+                <li><a class="dropdown-item" href="Mars.html">Mars</a></li>
+                <li><a class="dropdown-item" href="Jupiter.html">Jupiter</a></li>
+                <li><a class="dropdown-item" href="Saturne.html">Saturne</a></li>
+                <li><a class="dropdown-item" href="Uranus.html">Uranus</a></li>
+                <li><a class="dropdown-item" href="Neptune.html">Neptune</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -58,8 +61,7 @@
   <div class="separateur-header"></div>
   <main class="rows">
     <!-- div carousel -->
-    <div class="d-flex justify-content-center m-4">
-      <div id="carousel" class="carousel slide col-6 " data-bs-ride="carousel">
+      <div id="carousel" class="carousel slide col-12 col-xs-12 col-sm-12 col-md-12 col-lg-10 m-auto my-4" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
           <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
@@ -67,26 +69,28 @@
           <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
           <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
         </div>
-        <div class="carousel-inner justify-content-center">
+        <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="images/carousel/Gal_sombrero.webp" title="Galaxie du Sombrero - M104" alt="Galaxie du Sombrero" class="d-block"
-              style="width: 700px; height: 600px; object-fit: cover; background-position: center;">
+            <img src="images-planetarium/carousel/Gal_sombrero.webp" title="Galaxie du Sombrero - M104" alt="Galaxie du Sombrero"
+              class="d-block w-100" style="height: 600px; object-fit: contain; background-position: center;">
           </div>
           <div class="carousel-item">
-            <img src="images/carousel/Gal_oeilNoir.jpg" title="Galaxie de l'oeil Noir - M64" alt="Galaxie de l'oeil Noir" class="d-block"
-              style="width: 700px; height: 600px; object-fit: cover; background-position: center;">
+            <img src="images-planetarium/carousel/Gal_oeilNoir.jpg" title="Galaxie de l'oeil Noir - M64"
+              alt="Galaxie de l'oeil Noir" class="d-block w-100"
+              style="height: 600px; object-fit: contain; background-position: center;">
           </div>
           <div class="carousel-item">
-            <img src="images/carousel/Gal_andromede.avif" title="Galaxie d'Andromède - M31" alt="Galaxie d'Andromède" class="d-block"
-              style="width: 700px; height: 600px; object-fit: cover; background-position: center;">
+            <img src="images-planetarium/carousel/Gal_andromede.avif" title="Galaxie d'Andromède - M31" alt="Galaxie d'Andromède"
+              class="d-block w-100" style="height: 600px; object-fit: contain; background-position: center;">
           </div>
           <div class="carousel-item">
-            <img src="images/carousel/Gal_tourbillon.webp" title="Galaxie du Tourbillon - M51" alt="Galaxie du Tourbillon" class="d-block"
-              style="width: 700px; height: 600px; object-fit: cover; background-position: center;">
+            <img src="images-planetarium/carousel/Gal_tourbillon.webp" title="Galaxie du Tourbillon - M51"
+              alt="Galaxie du Tourbillon" class="d-block w-100"
+              style="height: 600px; object-fit: contain; background-position: center;">
           </div>
           <div class="carousel-item">
-            <img src="images/carousel/Gal_voieLactee.webp" title="Voie Lactée (rep.artistique)" alt="Voie Lactée" class="d-block"
-              style="width: 700px; height: 600px; object-fit: cover; background-position: center;">
+            <img src="images-planetarium/carousel/Gal_voieLactee.webp" title="Voie Lactée (rep.artistique)" alt="Voie Lactée"
+              class="d-block w-100" style="height: 600px; object-fit: contain; background-position: center;">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -96,74 +100,52 @@
           <span class="carousel-control-next-icon"></span>
         </button>
       </div>
-    </div>
     <!-- fin div carousel -->
-    <div class="d-flex">
-      <section class="bg-dark text-white col-8 me-2 p-3">
+    <div class="d-flex justify-content-between flex-wrap">
+      <section class="bg-dark text-white col-12 p-3 my-3">
         <h1 class="text-center">Bienvenue au Planétarium</h1>
         <p>
-          Ce site a pour but d'afficher des pagess html en rapport avec les planètes du système solaire. Nous excluons Pluton mais donnons dans la catégorie "Infos" plus de détail concernant ce choix. La catégorie "Planète" donne des informations plus détaillées sur chacune des planètes en fonction du choix fait dans le menu. La catégorie "Galerie" présente une galerie d'images sur les photos présentes sur le site. La partie "Contact" permettra de contacter le webmaster ou le propriétaire du site en fonction des besoins (Cette partie sera finie mais non focntionnelle pour le moment).
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore suscipit, quaerat odio doloribus
-          consectetur unde, nam voluptatem blanditiis, accusamus et ducimus quidem iusto excepturi fuga nostrum amet
-          sequi veritatis molestias! Quam eligendi rem, ab magnam accusamus id harum nisi sapiente itaque earum enim,
-          fugit minima omnis placeat quibusdam molestiae! Quae facere voluptatum quos dolore laboriosam veritatis libero
-          similique. Quis autem exercitationem voluptate laboriosam fugit, quae veritatis officiis dolorum totam est,
-          doloribus fugiat at vel vero. Dicta, sint, animi rem minus neque nemo sunt tenetur natus nesciunt nisi fugit.
-          Quod laborum totam repellat provident voluptatem quam, ab veritatis tempora consequatur officia?
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore suscipit, quaerat odio doloribus
-          consectetur unde, nam voluptatem blanditiis, accusamus et ducimus quidem iusto excepturi fuga nostrum amet
-          sequi veritatis molestias! Quam eligendi rem, ab magnam accusamus id harum nisi sapiente itaque earum enim,
-          fugit minima omnis placeat quibusdam molestiae! Quae facere voluptatum quos dolore laboriosam veritatis libero
-          similique. Quis autem exercitationem voluptate laboriosam fugit, quae veritatis officiis dolorum totam est,
-          doloribus fugiat at vel vero. Dicta, sint, animi rem minus neque nemo sunt tenetur natus nesciunt nisi fugit.
-          Quod laborum totam repellat provident voluptatem quam, ab veritatis tempora consequatur officia?
+          Ce site a pour but d'afficher des pagess html en rapport avec les planètes du système solaire. La catégorie "Planète" donne
+          des informations plus détaillées sur chacune des planètes en fonction du choix fait dans le menu. La catégorie
+          "Galerie" présente une galerie d'images sur les photos présentes sur le site. La partie "Contact" permettra de
+          contacter le webmaster ou le propriétaire du site en fonction des besoins (Cette partie sera finie mais non
+          fonctionnelle pour le moment).
         </p>
       </section>
-      <aside id="aside-planetes" class="text-white p-4 col-4">
-        <h1 class="text-center">Les planètes du système solaire</h1>
-        <ul id="ul-index" class="col-10 lead m-auto">
-          <li>
-            <div class="planete p-2 d-flex justify-content-center" >
-              <p><a href="mercure.html" style="text-decoration: none; color : white">Mercure<span><img src="images/mercure1.png" alt="Mercure" style="max-height: 100px" /></span></a></p>
-            </div>
+      <aside id="aside-planetes" class="text-white p-4 col-12 my-3">
+        <h3 class="text-center">Les planètes du système solaire</h3>
+        <ul id="ul-index" class="d-flex justify-content-center flex-wrap col-12 p-0">
+          <li class="d-flex flex-column align-items-center col-10 col-xs-6 col-sm-6 col-md-4 col-lg-2 py-2 m-2">
+              <p class="text-center mb-1"><a href="Mercure.html" style="text-decoration: none">Mercure</a></p><img
+                      src="images-planetarium/mercure1.png" alt="Mercure" style="max-height: 100px" class="m-auto">
           </li>
-          <li>
-            <div class="planete p-2 d-flex justify-content-center">
-              <p><a href="venus.html" style="text-decoration: none; color : white">Vénus<span><img src="images/Venus2.png" alt="Vénus" style="max-height: 100px" /></span></a></p>
-            </div>
+          <li class="d-flex flex-column align-items-center col-10 col-xs-6 col-sm-6 col-md-4 col-lg-2 py-2 m-2">
+            <p class="text-center mb-1"><a href="Venus.html" style="text-decoration: none">Vénus</a></p><img
+                      src="images-planetarium/Venus2.png" alt="Vénus" style="max-height: 100px" class="m-auto">
           </li>
-          <li>
-            <div class="planete p-2 d-flex justify-content-center">
-              <p><a href="terre.html" style="text-decoration: none; color : white">La Terre<span><img src="images/terre.png" alt="La Terre" style="max-height: 100px" /></span></a></p>
-            </div>
+          <li class="d-flex flex-column align-items-center col-10 col-xs-6 col-sm-6 col-md-4 col-lg-2 py-2 m-2">
+            <p class="text-center mb-1"><a href="Terre.html" style="text-decoration: none">La Terre</a></p><img
+                      src="images-planetarium/terre.webp" alt="La Terre" style="max-height: 100px" v>
           </li>
-          <li>
-            <div class="planete p-2 d-flex justify-content-center">
-              <p><a href="mars.html" style="text-decoration: none; color : white">Mars<span><img src="images/mars1.png" alt="Mars" style="max-height: 100px" /></span></a></p>
-            </div>
+          <li class="d-flex flex-column align-items-center col-10 col-xs-6 col-sm-6 col-md-3 col-lg-2 py-2 m-2">
+            <p class="text-center mb-1"><a href="Mars.html" style="text-decoration: none">Mars</a></p><img
+              src="images-planetarium/mars1.webp" alt="Mars" style="max-height: 100px" class="m-auto">
           </li>
-          <li>
-            <div class="planete p-2 d-flex justify-content-center">
-              <p><a href="jupiter.html" style="text-decoration: none; color : white">Jupiter<span><img src="images/jupiter.png" alt="Jupiter" style="max-height: 100px" /></span></a></p>
-            </div>
+          <li class="d-flex flex-column align-items-center col-10 col-xs-6 col-sm-5 col-md-3 col-lg-2 py-2 m-2">
+            <p class="text-center mb-1"><a href="Jupiter.html" style="text-decoration: none">Jupiter</a></p><img
+                      src="images-planetarium/jupiter.png" alt="Jupiter" style="max-height: 100px" class="m-auto">
           </li>
-          <li>
-            <div class="planete p-2 d-flex justify-content-center">
-              <p><a href="saturne.html" style="text-decoration: none; color : white">Saturne<span><img src="images/saturne2.png" alt="Saturne" style="max-height: 100px" /></span></a></p>
-            </div>
+          <li class="d-flex flex-column align-items-center col-10 col-xs-7 col-sm-7 col-md-5 col-lg-3 py-2">
+            <p class="text-center mb-1"><a href="Saturne.html" style="text-decoration: none">Saturne</a></p><img
+                      src="images-planetarium/saturne2.png" alt="Saturne" style="max-height: 100px" class="m-auto">
           </li>
-          <li>
-            <div class="planete p-2 d-flex justify-content-center">
-              <p><a href="uranus.html" style="text-decoration: none; color : white">Uranus<span><img src="images/uranus1.png" alt="Uranus" style="max-height: 100px" /></span></a></p>
-            </div>
+          <li class="d-flex flex-column align-items-center col-10 col-xs-6 col-sm-6 col-md-4 col-lg-2 py-2 m-2">
+            <p class="text-center mb-1"><a href="Uranus.html" style="text-decoration: none">Uranus</a></p><img
+                      src="images-planetarium/uranus1.png" alt="Uranus" style="max-height: 100px" class="m-auto">
           </li>
-          <li>
-            <div class="planete p-2 d-flex justify-content-center">
-              <p><a href="neptune.html" style="text-decoration: none; color : white">Neptune<span><img src="images/neptune2.png" alt="Neptune" style="max-height: 100px" /></span></a></p>
-            </div>
+          <li class="d-flex flex-column align-items-center col-10 col-xs-6 col-sm-6 col-md-4 col-lg-2 py-2 m-2">
+            <p class="text-center mb-1"><a href="Neptune.html" style="text-decoration: none">Neptune</a></p><img
+                      src="images-planetarium/neptune2.png" alt="Neptune" style="max-height: 100px" class="m-auto">
           </li>
         </ul>
       </aside>
@@ -171,9 +153,10 @@
   </main>
   <footer class="rows my-2">
     <div class="d-flex justify-content-end align-items-center" style="min-height: 100%">
-      <a href="#"><i class="fa-brands fa-git text-dark h2 m-3"></i></a>
-      <a href="#"><i class="fa-brands fa-github text-dark h2 m-3"></i></a>
-      <a href="#"><i class="fa-brands fa-discord text-dark h2 m-3"></i></a>
+      <a href="https://dho-jb-webdeveloppeur.fr/"><img src="images-planetarium/logo-2-full.png" alt="logo-site-portfolio" style="width: 48px; margin: 16px;"></i></a>
+      <a href="https://github.com/jean-baptiste-dho"><i class="fa-brands fa-github text-dark h2 m-3"></i></a>
+      <a href="https://www.linkedin.com/in/jean-baptiste-dho-d%C3%A9veloppeur-web-0314a5262"><i class="fa-brands fa-linkedin text-dark h2 m-3"></i></a>
+    </div>
   </footer>
 </body>
 
