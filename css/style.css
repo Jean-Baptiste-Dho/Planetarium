@@ -115,3 +115,8 @@ aside p{
 .menuJs{
     background-image: linear-gradient(to right, #056090, #0f507c, #114068, #103154, #0c2341, #0b1c37, #09162d, #060e24, #050b20, #04081d, #02051a, #000216);
 }
+
+.thumbnail{
+    width: 250px !important;
+    height: 250px !important;
+}
