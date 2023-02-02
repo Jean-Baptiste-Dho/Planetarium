@@ -66,7 +66,7 @@ nav{
 }
 
 .saturne{
-    background-image: linear-gradient(to bottom, #675e48, #776f5b, #88806e, #999282, #aaa496, #aca698, #aea899, #b0aa9b, #a49c8a, #988f7a, #8c816a, #80745a);
+    background-image: linear-gradient(to bottom, #675e48, #6f654f, #766c56, #7e745e, #867b65, #877c66, #887e68, #897f69, #847a65, #7f7661, #7a715d, #756d59);
 }
 
 .uranus{
@@ -105,4 +105,13 @@ aside p{
     padding: 3px;
     text-decoration: none;
     color : black;
+}
+
+.target  {
+    text-decoration: none;
+    color : lightblue !important;
+}
+
+.menuJs{
+    background-image: linear-gradient(to right, #056090, #0f507c, #114068, #103154, #0c2341, #0b1c37, #09162d, #060e24, #050b20, #04081d, #02051a, #000216);
 }
