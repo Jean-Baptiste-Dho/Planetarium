@@ -119,7 +119,15 @@ aside p{
 
 .thumbnail{
     max-width: 100%;
-    height: 300px;
+    max-height: 90%;
+    height: 200px;
     width: 200px;
+    object-fit: contain;
+}
+
+.thumbnail2{
+    max-width: 100%;
+    max-height: 90%;
+    height: 200px;
     object-fit: cover;
 }
