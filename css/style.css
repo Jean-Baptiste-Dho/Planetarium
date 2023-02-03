@@ -100,7 +100,7 @@ aside p{
     text-align: justify;
 }
 
-#wikiLink{
+.wikiLink{
     background-color: ivory;
     padding: 3px;
     text-decoration: none;
@@ -117,10 +117,7 @@ aside p{
 }
 
 .thumbnail{
-    max-height: 200px;
-    object-fit: cover;
-}
-.thumbnail2{
     max-width: 200px;
+    max-width: 100%;
     object-fit: cover;
 }
