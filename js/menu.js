@@ -11,9 +11,6 @@ const tabListPlanete = [
   "Neptune",  
 ];
 
-const hrefPlanete = [
-
-];
 
 const searchAndDestroy = (cible, listecible1) => {
   let position = listecible1.indexOf(cible);
